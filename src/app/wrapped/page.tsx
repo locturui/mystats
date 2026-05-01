@@ -64,7 +64,7 @@ export default function WrappedPage() {
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}
             className="text-6xl font-black mb-4">Wrapped</motion.h1>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.7 }}
-            className="text-white/60 text-xl">Let's see what music defined you</motion.p>
+            className="text-white/60 text-xl">Let&apos;s see what music defined you</motion.p>
         </div>
       ),
     },
@@ -82,7 +82,7 @@ export default function WrappedPage() {
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}
             className="text-white/70 text-xl mt-6">listening to music</motion.p>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }}
-            className="text-white/50 text-lg mt-2">That's {msToDays(stats.overview.totalMs)} full days 🤯</motion.p>
+            className="text-white/50 text-lg mt-2">That&apos;s {msToDays(stats.overview.totalMs)} full days 🤯</motion.p>
         </div>
       ),
     },
@@ -193,7 +193,7 @@ export default function WrappedPage() {
             <span className="text-5xl">🎉</span>
           </motion.div>
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
-            className="text-5xl font-black mb-4">That's a wrap!</motion.h1>
+            className="text-5xl font-black mb-4">That&apos;s a wrap!</motion.h1>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}
             className="text-white/60 text-xl mb-10">Music is your story.</motion.p>
           <motion.button initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9 }}
